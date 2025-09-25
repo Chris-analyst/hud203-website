@@ -1,36 +1,166 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HUD203 - Creative Real Estate Solutions Platform
 
-## Getting Started
+A comprehensive Next.js website promoting win-win real estate transactions through creative financing education and community building.
 
-First, run the development server:
+## 🏠 About HUD203
 
+HUD203 exists to bring together realtors, homebuyers, home sellers, and investors who believe in the power of creative real estate solutions. In a market plagued by affordability challenges, high interest rates, and economic uncertainty, we provide a hub of education, connection, and opportunity.
+
+## 🚀 Features
+
+### 📊 Market Analysis System
+- **State-by-state analysis** for FL, GA, AL, TX, TN, Carolinas, OK, MO, LA
+- **Days on market tracking** with historical comparisons
+- **Price trend analysis** and inventory metrics
+- **Interest rate impact studies** (2022 vs current rates)
+
+### 📚 Educational Content Hub
+- **9 comprehensive modules** covering:
+  - Real cost to buy/sell real estate
+  - Rental property returns analysis
+  - Creative financing strategies (Subject-To, Seller Financing, Wrap Mortgages)
+  - Property management comparisons
+  - Generational wealth building
+
+### 💼 Realtor Referral Program
+- **$2,500-$15,000 referral fee structure**
+- **Training and presentation materials**
+- **Deal salvation strategies** for challenging transactions
+- **Complete support system** for real estate professionals
+
+### 📈 Blog & Market Insights
+- **Real-time market data** and trend analysis
+- **Educational articles** in accessible language
+- **Success stories** and case studies
+- **Newsletter system** for ongoing updates
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS with custom design system
+- **UI Components**: Radix UI primitives
+- **Forms**: React Hook Form + Zod validation
+- **Icons**: Lucide React
+- **Deployment**: Static export ready for Netlify/Vercel
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Chris-analyst/hud203-website.git
+cd hud203-website
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Start development server**
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Open your browser**
+Navigate to `http://localhost:3000`
 
-## Learn More
+## 📝 Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── education/         # Educational content modules
+│   ├── market-analysis/   # Market data and state analysis
+│   ├── realtors/         # Realtor referral program
+│   ├── blog/             # Market insights and trends
+│   └── api/              # API routes for lead capture
+├── components/
+│   ├── ui/               # Reusable UI components
+│   ├── forms/            # Form components
+│   └── navigation/       # Header and footer
+├── lib/                  # Utilities and configurations
+└── hooks/                # Custom React hooks
+```
 
-## Deploy on Vercel
+## 🎯 Key Features & Benefits
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### For Home Buyers
+- **Alternative financing options** when traditional mortgages don't work
+- **Education on real costs** of homeownership
+- **Access to creative solutions** like Subject-To and seller financing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### For Home Sellers
+- **Creative exit strategies** for challenging situations
+- **Seller financing benefits** for generating long-term income
+- **Solutions for low-equity** or time-sensitive sales
+
+### For Realtors
+- **Save dead deals** with creative financing options
+- **Earn significant referral fees** on challenging transactions
+- **Complete training materials** and ongoing support
+
+### For Investors
+- **Comprehensive education** on creative strategies
+- **Market analysis and trends** for informed decisions
+- **Community networking** and mentorship opportunities
+
+## 🌟 Creative Financing Strategies Covered
+
+- **Subject-To Investing** - Taking over existing mortgage payments
+- **Seller Financing** - Owner-carry financing arrangements
+- **Wrap Mortgages** - All-inclusive trust deeds and wraps
+- **Loan Assumptions** - VA and FHA assumable loans
+- **Lease Options** - Rent-to-own arrangements
+
+## 📊 Target Markets
+
+Primary focus on states with favorable creative financing conditions:
+- Florida
+- Georgia
+- Alabama
+- Texas
+- Tennessee
+- North Carolina
+- South Carolina
+- Oklahoma
+- Missouri
+- Louisiana
+
+## 🤝 Community Mission
+
+- **Educate** - Demystify creative financing through clear explanations
+- **Connect** - Build network of like-minded professionals
+- **Inspire** - Share real-world success stories
+- **Empower** - Provide tools and confidence for creative solutions
+
+## 📄 License
+
+This project is private and proprietary. All rights reserved.
+
+## 📞 Contact
+
+For questions about the platform or partnership opportunities:
+- Website: [HUD203.com](https://hud203.com) (when deployed)
+- Email: hello@hud203.com
+
+---
+
+**Built with ❤️ for the creative real estate community**
+
+*HUD203 - Where creative financing meets community education*
